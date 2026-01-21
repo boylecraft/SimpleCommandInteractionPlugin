@@ -34,7 +34,7 @@ This project intentionally follows Gradle’s two-layer configuration model:
 | `gradle.properties` (repo root) | Project defaults (portable) |
 | `~/.gradle/gradle.properties` | Machine-specific overrides |
 
-Create a customized ~/.gradle/gradle.properties if needed
+Create a customized `~/.gradle/gradle.properties` if needed
 
 ---
 
@@ -59,6 +59,7 @@ Depending on your Java installation setup you may need to override the `gradle.p
 example `~/.gradle/gradle.properties` file
 
 ```bash
+org.gradle.java.home=C:/path/to/jdk-21
 org.gradle.java.installations.paths=C:/path/to/jdk-25
 org.gradle.java.installations.auto-detect=false
 org.gradle.java.installations.auto-download=false
