@@ -1,7 +1,7 @@
 {
   "Group": "com.wolfifurr",
   "Name": "SimpleCommandInteractionPlugin",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "Support for interaction with commands when interacting with blocks",
   "Authors": [
     {

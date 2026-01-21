@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.wolfifurr"
-version = "1.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -17,4 +17,10 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(25))
+    }
 }
